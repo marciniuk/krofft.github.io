@@ -1,0 +1,9 @@
+{
+  "author": "Adrian Marciniuk",
+  "website": "https://marcini.uk",
+  "email": "adrian@marcini.uk",
+  "project": "Krofft",
+  "year": 2025,
+  "tech": ["HTML", "CSS", "JS", "Tailwind", "too much caffeine"],
+  "note": "Built by a human — verified by insomnia."
+}

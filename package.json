@@ -1,0 +1,32 @@
+{
+  "name": "krofft",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./assets/css/main.css --watch",
+    "build:prod": "set NODE_ENV=production&& tailwindcss -i ./input.css -o ./assets/css/main.css --minify && echo. && node generate-sitemap.js && echo."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marciniuk/krofft.github.io.git"
+  },
+  "author": "Marcini.uk for Krofft",
+  "license": "All Rights Reserved – © 2025 Maciej Czarnacki (krofft.pl) & © 2025 Adrian Marciniuk (marcini.uk)",
+  "homepage": "https://krofft.pl",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.1.1",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "sitemap": "^9.0.0",
+    "tailwind-scrollbar": "^3.1.0",
+    "tailwindcss": "^3.4.17",
+    "xml-formatter": "^3.6.7"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "tailwind-rounded-out": "^1.0.1"
+  }
+}
